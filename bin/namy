@@ -4,15 +4,13 @@
 var Namy = require("../lib")
   , Logger = require("bug-killer")
   , Clp = require("clp")
-  , Abs = require("abs")
-  , Typpy = require("typpy")
   , Package = require("../package")
-  , ReadJson = require("r-json")
+  , Abs = require("abs")
   ;
 
 // Parse the command line arguments
-var pathOpt = new CLP.Option(["p", "path"], "The path to the project or a file.", "path", process.cwd())
-  , parser = new CLP({
+var pathOpt = new Clp.Option(["p", "path"], "The path to the project or a file.", "path", process.cwd())
+  , parser = new Clp({
         name: "Namy"
       , version: Package.version
       , exe: Package.name
@@ -27,6 +25,8 @@ var pathOpt = new CLP.Option(["p", "path"], "The path to the project or a file."
         pathOpt
     ])
   ;
+
+pathOpt.value = Abs(pathOpt.value);
 
 // Get the name
 Namy(pathOpt.value, function (err, name) {
