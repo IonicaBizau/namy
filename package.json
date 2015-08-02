@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Gets the name of the exported function.",
   "main": "lib/index.js",
+  "bin": {
+      "namy": "./bin/namy"
+  },
   "directories": {
     "example": "example"
   },
