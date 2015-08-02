@@ -1,0 +1,35 @@
+#!/usr/bin/env node
+
+// Dependencies
+var Namy = require("../lib")
+  , Logger = require("bug-killer")
+  , Clp = require("clp")
+  , Abs = require("abs")
+  , Typpy = require("typpy")
+  , Package = require("../package")
+  , ReadJson = require("r-json")
+  ;
+
+// Parse the command line arguments
+var pathOpt = new CLP.Option(["p", "path"], "The path to the project or a file.", "path", process.cwd())
+  , parser = new CLP({
+        name: "Namy"
+      , version: Package.version
+      , exe: Package.name
+      , examples: [
+            "namy # searches in the current directory"
+          , "namy -p path/to/some/file.js"
+          , "namy -p path/to/project"
+        ]
+      , docs_url: Package.homepage
+      , process: true
+    }, [
+        pathOpt
+    ])
+  ;
+
+// Get the name
+Namy(pathOpt.value, function (err, name) {
+    if (err) { return Logger.log(err); }
+    process.stdout.write(name);
+});
