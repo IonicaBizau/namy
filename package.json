@@ -1,0 +1,34 @@
+{
+  "name": "namy",
+  "version": "1.0.0",
+  "description": "Gets the name of the exported function.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "bug-killer": "^4.0.0",
+    "r-json": "^1.0.0",
+    "clp": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IonicaBizau/node-namy.git"
+  },
+  "keywords": [
+    "name",
+    "function",
+    "library",
+    "package"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/node-namy/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/node-namy"
+}
