@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:IonicaBizau/node-namy.git"
+    "url": "git@github.com:IonicaBizau/namy.git"
   },
   "keywords": [
     "name",
@@ -26,9 +26,9 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "KINDLY",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/node-namy/issues"
+    "url": "https://github.com/IonicaBizau/namy/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/node-namy",
+  "homepage": "https://github.com/IonicaBizau/namy",
   "dependencies": {
     "abs": "^1.0.0",
     "bug-killer": "^4.0.0",
