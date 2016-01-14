@@ -1,6 +1,6 @@
-# `$ namy` [![Support this project][donate-now]][paypal-donations]
+# `$ namy` [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/namy.svg)](https://www.npmjs.com/package/namy) [![Downloads](https://img.shields.io/npm/dt/namy.svg)](https://www.npmjs.com/package/namy) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-Gets the name of the exported function.
+> Gets the name of the exported function.
 
 ## Installation
 
