@@ -1,6 +1,6 @@
 {
   "name": "namy",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Gets the name of the exported function.",
   "main": "lib/index.js",
   "bin": {
@@ -43,6 +43,7 @@
     "src/",
     "resources/",
     "menu/",
+    "scripts/",
     "cli.js",
     "index.js"
   ]
