@@ -1,6 +1,6 @@
 {
   "name": "namy",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "Gets the name of the exported function.",
   "main": "lib/index.js",
   "bin": {
@@ -23,7 +23,7 @@
     "library",
     "package"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/namy/issues"
@@ -39,12 +39,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
