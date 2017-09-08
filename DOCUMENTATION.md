@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Gets the name of the exported function.
 
 #### Params
+
 - **String** `input`: The path to the package.json, directory or the file.
 - **Function** `callback`: The callback function.
 
