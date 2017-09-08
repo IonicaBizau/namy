@@ -1,6 +1,6 @@
 {
   "name": "namy",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "Gets the name of the exported function.",
   "main": "lib/index.js",
   "bin": {
@@ -45,6 +45,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
